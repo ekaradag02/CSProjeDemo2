@@ -16,7 +16,7 @@ namespace CSProjeDemo2.Services
 
             foreach (var item in personelListesi)
             {
-                int calismaSaati = item["CalismaSaati"] != null ? (int)item["CalismaSaati"] : 0; 
+                int calismaSaati = item["CalismaSaati"] != null ? (int)item["CalismaSaati"] : 0;
 
                 if (item["Unvan"] == "Yonetici")
                 {
